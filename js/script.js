@@ -20,7 +20,7 @@ console.log(numbers);
 
 /* In seguito deve chiedere all’utente (100 - 16) volte di inserire un numero alla volta, sempre compreso tra 1 e 100. */
 var inputNumbers = [];
-var maxInput = 20 - numbers.length;
+var maxInput = 100 - numbers.length;
 var stopCicle = false;
 
 for (var i = 0; i < maxInput && stopCicle == false; i++){
